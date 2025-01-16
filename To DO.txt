@@ -1,0 +1,6 @@
+To Do for Tic Tac Toe
+
+-Enemy Player -Need to work out plan-
+-Better Scaling
+-Settings Menu
+-Star Scales down the more there are

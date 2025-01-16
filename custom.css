@@ -1,0 +1,101 @@
+body{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    user-select: none;
+    
+}
+
+#Topper{
+    text-align: center;
+    background-color: brown;
+    font-size:6vw;
+    width: 100%;
+    height: 8vw;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    
+    
+}
+table, td, tr{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+a{
+    margin-left: 35vw;
+    
+}
+table{
+    width: 30vw;
+    height: 30vw;
+    margin-top: 5%;
+    margin-left: 33%;
+    margin-right: 50%;
+}
+td{
+    width: 33%;
+    height: 33%;
+    
+}
+button{
+    width: 100%;
+    height: 100%;
+    font-size: x-large;
+    text-overflow: clip;
+}
+
+#SettingsPage{
+   margin-left: auto;
+    
+}
+
+#Settings{
+    width: 8vw;
+    height: auto;
+}
+
+#Settings_Menu{
+    width: 40vw;
+    height: 20vw;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: blanchedalmond;
+}
+#SoundButton{
+    width: 7vw;
+    height: auto;
+
+}
+
+#SoundArea{
+margin-left: 1vw;
+margin-top: 0.5vw;
+}
+#WinBoard2{
+    background-color: lightblue;
+    width: 25%;
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    border-radius: 4px;
+    border: 2px solid black;
+    font-family: Arial;
+    font-size: large;
+}
+#WinBoard1{
+    background-color: lightblue;
+    width: 25%;
+    left: 2%;
+    position: absolute;
+    top: 25%;
+    border-radius: 4px;
+    border: 2px solid black;
+    font-family: Arial;
+    font-size: large;
+}
+.StarField{
+    width: 9vw;
+    height: 9vw;
+}
