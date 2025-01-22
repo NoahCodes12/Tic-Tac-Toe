@@ -33,6 +33,7 @@ table{
     margin-top: 5%;
     margin-left: 33%;
     margin-right: 50%;
+    
 }
 td{
     width: 33%;
@@ -98,4 +99,10 @@ margin-top: 0.5vw;
 .StarField{
     width: 9vw;
     height: 9vw;
+}
+.foot{
+    background-color: blue;
+    width: 100%;
+    height: 3vw;
+
 }
