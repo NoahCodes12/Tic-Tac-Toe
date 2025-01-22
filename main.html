@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Tic Tac Toe boy</title>
+    <link rel="stylesheet" href="custom.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<div id="Game">
+    <div id="Topper">
+        <a>Tic Tac Toe</a>
+        <div id="SettingsPage"><img src="Settings.png" id="Settings"></div>
+        <div id="SoundArea"><img src="Sound1.png" id="SoundButton"></div>
+    </div>
+    <div id="WinBoard1">Player1<br></div>
+    <div id="WinBoard2">Player2<br></div>
+    
+<table id="Tabler">
+    <tr>
+    <td><button onclick="ButtonClicked(this,0)" class="ButttonGroup"></button></td>
+    <td><button onclick="ButtonClicked(this,1)" class="ButttonGroup"></button></td>
+    <td><button onclick="ButtonClicked(this,2)" class="ButttonGroup"></button></td>
+    </tr>
+    <tr>
+
+    <td><button onclick="ButtonClicked(this,3)" class="ButttonGroup"></button></td>
+    <td><button onclick="ButtonClicked(this,4)" class="ButttonGroup"></button></td>
+    <td><button onclick="ButtonClicked(this,5)" class="ButttonGroup"></button></td>
+    </tr>   
+    <tr>
+    <td><button onclick="ButtonClicked(this,6)" class="ButttonGroup"></button></td>
+    <td><button onclick="ButtonClicked(this,7)" class="ButttonGroup"></button></td>
+    <td><button onclick="ButtonClicked(this,8)" class="ButttonGroup"></button></td>
+    </tr>
+</table>
+</div>
+<div id="foot"></div>
+<script src="GameLogic.js"></script>
+
+
+</body>
+</html>
