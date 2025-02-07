@@ -14,28 +14,44 @@
         <div id="SettingsPage"><img src="Settings.png" id="Settings"></div>
         <div id="SoundArea"><img src="Sound1.png" id="SoundButton"></div>
     </div>
-    <div id="WinBoard1">Player1<br></div>
-    <div id="WinBoard2">Player2<br></div>
-    
+
+    <!-- This is where the Stars are appended and the Computer is turned on. -->
+    <div id="WinBoard1">
+        <div id="headlineBoard1">
+            <>Player1</div>
+            <div id="COM_Button1">OFF</div>
+            <div id="StarArea1"></div>
+        </div>
+    </div>
+    <div id="WinBoard2">
+        <div id="headlineBoard2">
+            <a>Player2</a>
+            <div id="COM_Button2">OFF</div>
+            <div id="starArea1"></div>
+        </div>
+    </div>
+
+<!-- The Playing Field with the number and the element being given over onclick by the buttons. -->
 <table id="Tabler">
     <tr>
-    <td><button onclick="ButtonClicked(this,0)" class="ButttonGroup"></button></td>
-    <td><button onclick="ButtonClicked(this,1)" class="ButttonGroup"></button></td>
-    <td><button onclick="ButtonClicked(this,2)" class="ButttonGroup"></button></td>
+    <td><button id="But0" onclick="ButtonClicked(this,0)" class="ButttonGroup"></button></td>
+    <td><button id="But1" onclick="ButtonClicked(this,1)" class="ButttonGroup"></button></td>
+    <td><button id="But2" onclick="ButtonClicked(this,2)" class="ButttonGroup"></button></td>
     </tr>
     <tr>
 
-    <td><button onclick="ButtonClicked(this,3)" class="ButttonGroup"></button></td>
-    <td><button onclick="ButtonClicked(this,4)" class="ButttonGroup"></button></td>
-    <td><button onclick="ButtonClicked(this,5)" class="ButttonGroup"></button></td>
+    <td><button id="But3" onclick="ButtonClicked(this,3)" class="ButttonGroup"></button></td>
+    <td><button id="But4" onclick="ButtonClicked(this,4)" class="ButttonGroup"></button></td>
+    <td><button id="But5" onclick="ButtonClicked(this,5)" class="ButttonGroup"></button></td>
     </tr>   
     <tr>
-    <td><button onclick="ButtonClicked(this,6)" class="ButttonGroup"></button></td>
-    <td><button onclick="ButtonClicked(this,7)" class="ButttonGroup"></button></td>
-    <td><button onclick="ButtonClicked(this,8)" class="ButttonGroup"></button></td>
+    <td><button id="But6" onclick="ButtonClicked(this,6)" class="ButttonGroup"></button></td>
+    <td><button id="But7" onclick="ButtonClicked(this,7)" class="ButttonGroup"></button></td>
+    <td><button id="But8" onclick="ButtonClicked(this,8)" class="ButttonGroup"></button></td>
     </tr>
 </table>
 </div>
+<!-- Data where you can conntact me. -->
 <div id="foot"></div>
 <script src="GameLogic.js"></script>
 

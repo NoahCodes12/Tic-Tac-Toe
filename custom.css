@@ -84,6 +84,8 @@ margin-top: 0.5vw;
     border: 2px solid black;
     font-family: Arial;
     font-size: large;
+    display: flex;
+    justify-content: center;
 }
 #WinBoard1{
     background-color: lightblue;
@@ -95,6 +97,8 @@ margin-top: 0.5vw;
     border: 2px solid black;
     font-family: Arial;
     font-size: large;
+    display: flex;
+    justify-content: center;
 }
 .StarField{
     width: 9vw;
@@ -105,4 +109,38 @@ margin-top: 0.5vw;
     width: 100%;
     height: 3vw;
 
+}
+#COM_Button1{
+    background-color: red;
+    border: 2px solid black;
+    position: relative;
+    width: 4vw;
+    height: 2vw;
+    text-align: center;
+    line-height: 2vw;
+    margin-top: 0.8%;
+}
+#COM_Button2{
+    background-color: red;
+    border: 2px solid black;
+    position: relative;
+    width: 4vw;
+    height: 2vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2vw;
+    margin-top: 0.8%;
+
+}
+
+#headlineBoard1, #headlineBoard2{
+    justify-content: center;
+    width: 100%;
+    height:2vw;
+    
+    flex-wrap: wrap;
+}
+#starArea1, #starArea2{
+    height: fit-content;
+    width: 100%;
 }
